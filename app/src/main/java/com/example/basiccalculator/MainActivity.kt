@@ -127,22 +127,22 @@ fun Calculator() {
     }
 }
 
-fun addition(a: Int, b: Int): String {
+fun addition(a: Int, b: Int): String { //addition function
     val ab = a + b
     return ab.toString()
 }
 
-fun subtract(a: Int, b: Int): String {
+fun subtract(a: Int, b: Int): String { //subtraction function
     val ab = a - b
     return ab.toString()
 }
 
-fun multiply(a: Int, b: Int): String {
+fun multiply(a: Int, b: Int): String { //multiplication function
     val ab = a * b
     return ab.toString()
 }
 
-fun divide(a: Int, b: Int): String {
+fun divide(a: Int, b: Int): String { //divide function
     val ab = a.toDouble() / b.toDouble()
     return ab.toString()
 }
